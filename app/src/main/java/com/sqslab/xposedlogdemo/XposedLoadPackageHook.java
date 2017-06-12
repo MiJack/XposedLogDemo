@@ -26,8 +26,9 @@ public class XposedLoadPackageHook implements IXposedHookLoadPackage {
         METHOD_NAMES.add("java.net.ServerSocket <init> int");
         METHOD_NAMES.add("java.net.ServerSocket <init> int int");
         METHOD_NAMES.add("java.net.ServerSocket <init> int int java.net.InetAddress");
-        METHOD_NAMES.add("java.net.ServerSocket <init> java.net.SocketImpl");
+//        METHOD_NAMES.add("java.net.ServerSocket <init> java.net.SocketImpl");
         METHOD_NAMES.add("java.net.ServerSocket accept");
+//        METHOD_NAMES.add("java.nio.channels.SocketChannel accept");
     }
 
     @Override
